@@ -1,109 +1,223 @@
-<!doctype html>
-<html lang="zh-Hant">
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#f5f5f7">
-	<meta name="description" content="夜航樂團：在城市夜色裡找到聲音抵達的地方。認識團員、探索巡演並試聽全新單曲。">
-	<title>夜航 Night Ferry｜聲音抵達的地方</title>
-	<link rel="preconnect" href="https://images.unsplash.com">
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷簡介 | ANN WU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<header class="site-header">
-		<nav class="site-nav" aria-label="主要導覽">
-			<a class="wordmark" href="#top">夜航<span>NIGHT FERRY</span></a>
-			<ul class="nav-links">
-				<li><a href="#story">樂團故事</a></li>
-				<li><a href="#members">團員介紹</a></li>
-				<li><a href="#tour">巡演場次</a></li>
-				<li><a href="#listen">新曲試聽</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="hero" id="top" aria-labelledby="hero-title">
-			<img class="hero-image" src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&amp;fit=crop&amp;w=2400&amp;q=85" alt="演唱會舞台燈光照亮現場觀眾" fetchpriority="high" decoding="async">
-			<div class="hero-shade" aria-hidden="true"></div>
-			<div class="hero-content">
-				<p class="eyebrow">NIGHT FERRY · 2026 TOUR</p>
-				<h1 id="hero-title">聲音抵達的地方</h1>
-				<p class="hero-intro">在夜色裡相遇，讓每一首歌都成為回家的路。</p>
-				<a class="text-link text-link-light" href="#tour">探索巡演 <span aria-hidden="true">↓</span></a>
-				<p class="hero-countdown" id="countdown" aria-live="polite">台北首場，即將啟程</p>
-			</div>
-			<a class="scroll-cue" href="#story">向下探索 <span aria-hidden="true">↓</span></a>
-		</section>
-		<section class="story section" id="story" aria-labelledby="story-title">
-			<div class="section-inner story-layout">
-				<div class="story-copy">
-					<p class="eyebrow eyebrow-dark">01 / OUR STORY</p>
-					<h2 id="story-title">我們在夜裡，<br>寫給白天的歌。</h2>
-					<p>四個在城市裡錯身的人，因為一場散場後的即興演奏而相遇。夜航把合成器的微光、吉他的潮汐與生活的褶皺，寫成陪你走遠一點的歌。</p>
-					<p>成立於 2019 年。這次，帶著全新作品《潮汐以外》，再一次出發。</p>
-					<a class="text-link" href="#members">認識夜航 <span aria-hidden="true">↗</span></a>
-				</div>
-				<figure class="story-image-wrap">
-					<img src="https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="樂團在舞台上演出，燈光映出現場氛圍" loading="lazy" decoding="async">
-					<figcaption>LIVE, UNDER THE SAME SKY.</figcaption>
-				</figure>
-			</div>
-		</section>
-		<section class="members section" id="members" aria-labelledby="members-title">
-			<div class="section-inner">
-				<div class="section-heading">
-					<p class="eyebrow eyebrow-dark">02 / THE CREW</p>
-					<h2 id="members-title">四種頻率，一個方向。</h2>
-					<p>每個人的聲音，都在夜航裡找到自己的位置。</p>
-				</div>
-				<div class="member-grid">
-					<article class="member"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=720&amp;q=78" alt="主唱林予安" loading="lazy" decoding="async"><h3>林予安 <span>主唱・合成器</span></h3><p>把沒說出口的話，唱成一片溫柔的海。</p></article>
-					<article class="member"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=720&amp;q=78" alt="吉他手陳以澄" loading="lazy" decoding="async"><h3>陳以澄 <span>吉他</span></h3><p>收集城市回音，讓旋律有了方向。</p></article>
-					<article class="member"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&amp;fit=crop&amp;w=720&amp;q=78" alt="貝斯手梁允之" loading="lazy" decoding="async"><h3>梁允之 <span>貝斯</span></h3><p>用最安靜的低音，托住每一次心跳。</p></article>
-					<article class="member"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=720&amp;q=78" alt="鼓手周敬" loading="lazy" decoding="async"><h3>周敬 <span>鼓</span></h3><p>每一下節拍，都是繼續往前的理由。</p></article>
-				</div>
-			</div>
-		</section>
-		<section class="tour section" id="tour" aria-labelledby="tour-title">
-			<div class="section-inner tour-layout">
-				<div class="tour-heading">
-					<p class="eyebrow eyebrow-dark">03 / LIVE IN YOUR CITY</p>
-					<h2 id="tour-title">下一站，<br>與你見面。</h2>
-					<p>2026《潮汐以外》巡迴演唱會<br>四座城市，四個一起唱歌的夜晚。</p>
-				</div>
-				<div class="tour-list" aria-label="巡演日期與場地">
-					<article class="tour-row"><time datetime="2026-11-07"><span>07</span> NOV</time><div><h3>台北</h3><p>台北流行音樂中心</p></div><span class="tour-status">巡演首場</span></article>
-					<article class="tour-row"><time datetime="2026-11-14"><span>14</span> NOV</time><div><h3>台中</h3><p>台中洲際多功能運動中心</p></div><span class="tour-status">即將開演</span></article>
-					<article class="tour-row"><time datetime="2026-11-21"><span>21</span> NOV</time><div><h3>高雄</h3><p>高雄巨蛋</p></div><span class="tour-status">即將開演</span></article>
-					<article class="tour-row"><time datetime="2026-11-28"><span>28</span> NOV</time><div><h3>台南</h3><p>台南市立體育場</p></div><span class="tour-status">巡演最終場</span></article>
-					<p class="tour-note">售票資訊將於夜航官方社群公布</p>
-				</div>
-			</div>
-		</section>
-		<section class="listen section" id="listen" aria-labelledby="listen-title">
-			<div class="listen-image" role="img" aria-label="舞台上的音樂人與閃耀燈光"></div>
-			<div class="listen-overlay" aria-hidden="true"></div>
-			<div class="listen-content">
-				<p class="eyebrow">04 / FIRST LISTEN</p>
-				<h2 id="listen-title">潮汐以外</h2>
-				<p class="track-subtitle">夜航全新單曲 · 片段試聽</p>
-				<p class="track-description">有些告別不是終點，只是讓我們學會用另一種方式靠近。</p>
-				<div class="audio-player" aria-label="新曲試聽播放器">
-					<div class="player-controls">
-						<button class="play-button" id="play-toggle" type="button" aria-label="播放試聽" aria-pressed="false">播放試聽</button>
-						<div class="track-meta"><span>潮汐以外</span><span>原創器樂片段</span></div>
-					</div>
-					<div class="progress-controls"><time id="elapsed-time">0:00</time><input id="track-progress" type="range" min="0" max="24" step="0.1" value="0" aria-label="試聽進度"><time>0:24</time></div>
-					<p class="audio-note" id="audio-status" aria-live="polite">使用播放鍵聆聽 24 秒原創合成試聽。</p>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer class="site-footer">
-		<a class="wordmark footer-wordmark" href="#top">夜航<span>NIGHT FERRY</span></a>
-		<p>把此刻唱成永遠。<br><small>© 2026 夜航 Night Ferry</small></p>
-		<a class="back-to-top" href="#top">回到頂端 ↑</a>
-	</footer>
+
+<!-- 導覽列 -->
+<header>
+    <div class="logo">ANN WU<span> .</span></div>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#works">WORKS</a>
+        <a href="#music">MUSIC</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<!-- 首頁 -->
+<section id="home" class="hero">
+
+    <div class="dot dot1"></div>
+    <div class="dot dot2"></div>
+    <div class="dot dot3"></div>
+
+    <div class="hero-text">
+        <p class="small-title">WELCOME TO MY WORLD ♡</p>
+
+        <h1>HELLO,<br>I'm <span>ANN.</span></h1>
+
+        <h2>吳采恩 / 170</h2>
+
+        <p class="intro">
+            我是大 I 人，歡迎認識我：3
+            <br>
+            Design · Music · Life
+        </p>
+
+        <a href="#about" class="more-btn">MORE ABOUT ME ↗</a>
+    </div>
+
+    <div class="hero-photo">
+        <img src="images/profile.png" alt="Ann 個人照片">
+        <div class="photo-label">THIS IS ME !</div>
+    </div>
+
+    <div class="vertical-text">MY LITTLE WORLD — 2026</div>
+
+</section>
+
+<!-- 關於我 -->
+<section id="about" class="section about">
+
+    <div class="section-title">
+        <p>01 / INTRODUCTION</p>
+        <h2>ABOUT ME<span>.</span></h2>
+        <span class="chinese-title">關於我</span>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-photo">
+            <img src="images/profile2.jpeg" alt="個人生活照">
+        </div>
+
+        <div class="about-text">
+
+            <h3>Hi ! Nice to meet you.</h3>
+
+            <p>
+                哈囉！我是采恩，也可以叫我 Ann。
+                是一個有點慢熟的大 I 人，喜歡音樂、設計，
+                也喜歡用自己的方式記錄生活。
+                <br><br>
+                曾經擔任學生會行銷部副部長，
+                累積了活動企劃、社群經營及視覺設計的經驗。
+                希望能透過設計，讓生活多一點有趣的小事。
+            </p>
+
+            <div class="profile-info">
+                <div><span>NAME</span> 吳采恩 Ann</div>
+                <div><span>NICKNAME</span> 170</div>
+                <div><span>SCHOOL</span> 南臺科技大學</div>
+                <div><span>MAJOR</span> 商品設計系</div>
+                <div><span>EXPERIENCE</span> 學生會行銷部副部長</div>
+            </div>
+
+            <div class="mint-sticker">BE YOURSELF ♡</div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- 設計作品 -->
+<section id="works" class="section works">
+
+    <div class="section-title">
+        <p>02 / CREATIVE PROJECTS</p>
+        <h2>MY WORKS<span>.</span></h2>
+        <span class="chinese-title">近年來商業設計作品</span>
+    </div>
+
+    <p class="works-intro">
+        每一次的設計，都是一個新的故事。<br>
+        Here are some of my creative projects.
+    </p>
+
+    <div class="work-grid">
+
+        <div class="work-card">
+            <img src="images/work1.png" alt="果醬包裝設計">
+            <div class="work-info">
+                <span>01 / BRAND DESIGN</span>
+                <h3>果醬包裝設計</h3>
+                <p>品牌形象、Logo包裝設計。</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="images/work2.jpeg" alt="學校看板背景設計">
+            <div class="work-info">
+                <span>02 / CIS DESIGN</span>
+                <h3>學校看板背景設計</h3>
+                <p>因學生會的關係被選上，為學校公告看板設計新的背景。</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="images/work3.png" alt="日日甜IOGO設計">
+            <div class="work-info">
+                <span>03 / PRODUCT DESIGN</span>
+                <h3>日日甜IOGO設計</h3>
+                <p>為此作出一份CIS。</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="images/work4.jpeg" alt="調酒包裝設計">
+            <div class="work-info">
+                <span>04 / PACKAGE DESIGN</span>
+                <h3>調酒包裝設計</h3>
+                <p>從包裝結構到視覺呈現的設計過程。</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 音樂分享 -->
+<section id="music" class="section music">
+
+    <div class="section-title">
+        <p>03 / MY FAVORITE THINGS</p>
+        <h2>MY MUSIC<span>.</span></h2>
+        <span class="chinese-title">音樂與生活</span>
+    </div>
+
+    <div class="music-content">
+
+        <div class="music-photo">
+            <img src="images/music.jpg" alt="音樂祭紀錄">
+            <div class="music-sticker">MUSIC IS MY LIFE ♪</div>
+        </div>
+
+        <div class="music-text">
+            <p class="music-subtitle">MY FAVORITE BAND</p>
+
+            <h3>福夢樂團</h3>
+
+            <p>
+                音樂對我來說，是生活中不可缺少的一部分。
+                比起單純聽歌，我更喜歡親自走進現場，
+                感受音樂、燈光與大家一起享受音樂的氛圍。
+                <br><br>
+                喜歡參加音樂祭，也喜歡透過不同的歌曲，
+                收藏生活中每個值得紀念的瞬間。
+            </p>
+
+            <div class="music-tag">
+                # LIVE MUSIC　# MUSIC FESTIVAL　# MY PLAYLIST
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 聯絡資訊 -->
+<section id="contact" class="section contact">
+
+    <p class="contact-small">04 / GET IN TOUCH</p>
+
+    <h2>LET'S KEEP<br>IN TOUCH<span>!</span></h2>
+
+    <p>謝謝你來到我的小小世界 ♡</p>
+
+    <div class="contact-links">
+        <a href="mailto:4B3J2049@stust.edu.tw">EMAIL ↗</a>
+        <a href="https://www.instagram.com/cai12en_?rpxt=dzE4bnlmaTg0dzFr&utm_source=qr" target="_blank">INSTAGRAM ↗</a>
+    </div>
+
+    <div class="contact-dots">••••••••••••••</div>
+
+</section>
+
+<footer>
+    <p>© 2026 ANN WU. ALL RIGHTS RESERVED.</p>
+    <p>MADE WITH LOVE ♡</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
